@@ -1,0 +1,14 @@
+<ModifierDefs><List>   
+	<Modifier Name="SysTool_Funwudao" Type="Normal">
+		<DisplayName>悟道手环</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+		    <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10"/>
+			<li Name="MindStateBaseValue" BAddV="220"/>
+			<li Name="BaseEmotionAddV" BAddV="200"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

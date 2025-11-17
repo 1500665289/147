@@ -1,0 +1,26 @@
+<Magics><List>
+	<Magic Name="PrayForLingUpWave">
+		<DisplayName>唤灵术</DisplayName>
+		<Desc>利用神通求爆发大量灵气，因为此举有益天和，所以会增加寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_qiuyu01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>1</Param1><!--施法时间-->
+		<sParam1>LingUpWave</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>30000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>-10</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	
+	<Magic Name="YangShanChuE">
+		<DisplayName>除恶术</DisplayName>
+		<Desc>使用特殊秘术，篡改世人记忆，清除曾经犯下的罪恶。</Desc>
+		<Icon>res\Sprs\ui\icon_ningpo01</Icon>
+		<Kind>Good</Kind>
+		<Param1>10</Param1><!--所需时间-->
+		<ScoreBad>-200</ScoreBad>
+		<CostLing>1000</CostLing>
+		<CMD>AbsorbGong_9</CMD>
+	</Magic>
+</List></Magics>

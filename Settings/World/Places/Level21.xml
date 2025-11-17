@@ -1,0 +1,54 @@
+<Places><List>
+    <Place Name="Place_lingshishanmai" Parent="Place_Level2Base">
+		<Location X="966" Y="486"/>
+		<Icon>res/Sprs/map/map_shan02</Icon>
+		<DisplayName>灵石山脉</DisplayName>
+		<UnLocked>1</UnLocked>
+		<Desc>蕴含大量灵气的山脉，出产大量灵石的山脉</Desc>
+		<Events>
+			<li Name="Find" Rate="5"/>
+			<li Name="HighFind" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_LingStone</ThingDef>
+				<Count>100</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+		<HighProduce>
+			<li>
+				<ThingDef>Item_LingCrystal</ThingDef>
+				<Count>10</Count>
+				<Rate>0.8</Rate>
+			</li> 
+		</HighProduce>
+	</Place>
+	<Place Name="Place_fengdu" Parent="Place_Level2Base">
+		<Location X="666" Y="286"/>
+		<Icon>res/Sprs/map/map_chengzhen01</Icon>
+		<DisplayName>酆都</DisplayName>
+		<UnLocked>1</UnLocked>
+		<Desc>亡魂的住居之地，可以寻到各类魂魄</Desc>
+		<Events>
+			<li Name="Find" Rate="5"/>
+		</Events>
+		<Produce>
+			<li>
+			    <ThingDef>Item_SoulCrystalYou</ThingDef>
+			    <Count>10</Count>
+				<Rate>1</Rate>
+	        </li>
+            <li>
+			    <ThingDef>Item_SoulCrystalNing</ThingDef>
+			    <Count>10</Count>
+				<Rate>1</Rate>
+	        </li>
+            <li>
+			    <ThingDef>Item_SoulCrystalLing</ThingDef>
+			    <Count>10</Count>
+				<Rate>1</Rate>
+	        </li>
+		</Produce>
+	</Place>
+</List></Places>

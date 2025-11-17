@@ -1,0 +1,58 @@
+<DanFormulas><List> 
+	<!--回元丹-->
+	<Dan Name="Dan_huiyuan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_huiyuan</ItemName>
+		<Level>2</Level>
+		<SuccessRate>0.98</SuccessRate>
+		<Count>8</Count>
+    </Dan>			
+    <!--永乐丹-->
+	<Dan Name="Dan_Happiness1">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_Happiness1</ItemName>
+		<Level>5</Level>
+		<SuccessRate>0.7</SuccessRate>
+		<Count>1</Count>
+	</Dan>		
+	<!--回灵丹-->
+	<Dan Name="Dan_huiling">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_huiling</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>8</Count>
+	</Dan>	
+	<!--灵泉丹-->
+	<Dan Name="Dan_lingq">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_lingq</ItemName>
+		<Level>12</Level>
+		<SuccessRate>0.5</SuccessRate>
+		<Count>1</Count>
+    </Dan>			
+	<!--灵海丹-->
+	<Dan Name="Dan_linghai">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_linghai</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>1</Count>	
+	</Dan>	
+	<!--治疗丹-->
+	<Dan Name="Dan_zld">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_zld</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.5</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	<!--天命丹-->
+	<Dan Name="Dan_tianming">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_tianming</ItemName>
+		<Level>20</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+</List></DanFormulas>

@@ -1,0 +1,76 @@
+<Esotericas><List>
+    <Esoterica Name="Magic_PrayForLingUpWave">
+		<DisplayName>唤灵术</DisplayName>
+		<Icon>res/Sprs/ui/icon_quyun01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<!--<Desc>利用神通召唤灵力潮汐。</Desc>-->
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		
+		<EffectDesc>[size=10][color=#D06508]习得神通：唤灵术\n利用神通求爆发大量灵气，因为此举有益天和，所以会增加寿元。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PrayForLingUpWave</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Magic_YangShanChuE">
+		<DisplayName>扬善除恶</DisplayName>
+		<Icon>res/Sprs/ui/icon_quyun01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<!--<Desc>使用特殊秘术，篡改世人记忆，使人认为你的门派乃名门正派。</Desc>-->
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		
+		<EffectDesc>[size=10][color=#D06508]习得神通：扬善除恶\n使用特殊秘术，篡改世人记忆，使人认为你的门派乃名门正派。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>YangShanChuE</li>
+		</Magics>
+	</Esoterica>
+	
+    <Esoterica Name="Magic_CSL">
+		<DisplayName>神通录-上卷</DisplayName>
+		<Icon>res/Sprs/ui/icon_shentong</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>传说由世界核心凝聚而成的神通录，记载着世间的一切神通，分为上中下三卷。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		
+		<EffectDesc>[size=10][color=#D06508]习得神通：\n唤灵术\n再造术\n幽淬之法\n灵淬之法\n凝珀诀\n御灵术\n赋灵术\n搜魂大法\n风水鉴定\n灵息诀\n甘霖术\n驱云诀\n暴雨术\n焚风术\n尘暴术\n雷暴术\n细毛伐髓\n醍醐灌顶\n再造神形\n开天眼\n炼制灵石\n炼制灵晶\n鼎炉吸真术\n阳神夺舍\n造化灵土\n造化灵水\n造化沃土\n除恶术[/color][/size]</EffectDesc>
+		<Magics>
+		    <li>BuildBody</li>
+			<li>SoulCrystalYouPowerUp</li>
+            <li>SoulCrystalLingPowerUp</li>
+            <li>MakeSoulCrystal</li>
+            <li>MakePuppet</li>
+            <li>BuidPuppet</li>
+			<li>SeachSoul</li>
+			<li>FengshuiItemOpen</li>
+			<li>AbsorbLing_Aoe</li>
+			<li>BuildRain</li>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+			<li>Healing_Physique</li>
+			<li>Healing_Intelligence</li>
+			<li>Healing_Charisma</li>
+			<li>Healing_Perception</li>
+			<li>LingCrystalMake</li>
+			<li>LingStoneMake</li>
+			<li>AbsorbGong_1</li>
+			<li>RobBodyHigh</li>
+			<li>BuildLing</li>
+			<li>BuildLingWater</li>
+			<li>BuildFertileSoil</li>
+			<li>BuildSea</li>
+			<li>BuildLand</li>
+			<li>PrayForLingUpWave</li>
+			<li>YangShanChuE</li>
+		</Magics>
+	</Esoterica>
+</List></Esotericas>

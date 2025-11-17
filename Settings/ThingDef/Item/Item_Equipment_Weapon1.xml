@@ -1,0 +1,42 @@
+<ThingDefs><List> 
+     <ThingDef Type="Item" Name="Item_WeaponBow1" Parent="WeaponBase">
+	<ThingName>灭神弓</ThingName>
+	<TexPath>res\Sprs\object\object_weapongong01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>天耀帝国三大军团，灭神军团的制式武器之一，具备超远的攻击距离与无与伦比的攻速，同时拥有强大的攻击力。</Desc>
+	<Item Lable="Weapon">
+		<FabaoSuffix>弓</FabaoSuffix>
+		<PhysicalLables>
+			<li>Elastic</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+		</BeMade> 
+		<Equip>
+			<Damage>100</Damage>
+			<AttackSpeed>120</AttackSpeed>
+			<AttackRange>1000</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut3" Rate="1"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="1"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="1"/>
+			</AtkDamage>
+			<!--<AttackSkill>NormalAttackMissile</AttackSkill>-->
+			<AttackSkill>DamageSkill_MS</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+</List></ThingDefs>

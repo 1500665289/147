@@ -1,0 +1,14 @@
+<ThingDefs><List>
+        <ThingDef Type="Building" Name="FilllingSoil" Parent="FillBase">	
+			<Color>006550E5</Color>
+			<ThingName>灵土改造</ThingName>
+			<Desc>将一块区域改造成灵土，本工作需要消耗大量时间。</Desc>
+			<Building>
+				<FillTarrain>LingSoil</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>80</WorkToMake>
+				</BeMade>
+			</Building>
+		</ThingDef>
+</List></ThingDefs>

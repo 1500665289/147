@@ -1,0 +1,67 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Dan_lingq" Type="Normal">
+		<DisplayName>灵泉丹</DisplayName>
+		<Desc>食用灵海丹，提升十倍基础灵力。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="10"/>
+		</Properties>
+	</Modifier>
+	
+    <Modifier Name="Dan_linghai" Type="Normal">
+		<DisplayName>灵海丹</DisplayName>
+		<Desc>食用灵海丹，提升百倍基础灵力。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="100"/>
+		</Properties>
+	</Modifier> 
+	
+    <Modifier Name="Dan_huiling" Type="Normal">
+		<DisplayName>回灵丹</DisplayName>
+		<Desc>食用回灵丹，回复大量灵力。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier>
+	
+    <Modifier Name="Dan_huiyuan" Type="Normal">
+		<DisplayName>回元丹</DisplayName>
+		<Desc>食用回元丹，回复大量灵力。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+	</Modifier> 	 	
+	
+	<Modifier Name="Dan_Happiness1" Type="Normal">
+		<DisplayName>永乐丹</DisplayName>
+		<Desc>食用永乐丹，会永远沉浸在快乐之中，但是工作效率会受极大影响。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-2"/>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+		</Properties>
+		<Moods>
+			<li>Dan_Happiness</li>
+		</Moods>
+	</Modifier> 
+	
+	<Modifier Name="Dan_tianming" Type="Normal">
+		<DisplayName>天命丹</DisplayName>
+		<Desc>食用天命丹，可感应冥冥之中的天道，获取天道青睐。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier> 
+	
+</List></ModifierDefs>

@@ -1,0 +1,20 @@
+<Esotericas><List>
+    <Esoterica Name="DanFang_SN">
+		<DisplayName>药祖经</DisplayName>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>传承自最初人族的丹经，记录了数种珍贵丹药的炼制方法。</Desc>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>习得丹方：\n疗伤丹\n造化神丹\n九转金丹\n再造金丹\n归源散\n重生丹\n轮回丹</EffectDesc>
+		<Dans>
+			<li>Dan_CureFiveElementDamage</li>
+			<li>Dan_ExtremeLofty</li>
+			<li>Dan_HundredRefine</li>
+			<li>Dan_IncreaseLife4</li>
+            <li>Dan_Restore</li>
+            <li>Dan_ReBorn</li>
+            <li>Dan_ReBorn_4</li>
+		</Dans>
+	</Esoterica> 
+</List></Esotericas>

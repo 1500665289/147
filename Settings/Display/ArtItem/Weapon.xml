@@ -1,0 +1,13 @@
+<ArtItems><List>
+        <ArtItem Name="Item_WeaponBow1">
+		<List>
+			<li Name="龙皇" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong2"/>
+			<li Name="星辰" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong3"/>
+			<li Name="暴风" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong4"/>
+			<li Name="耀世" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong5"/>
+			<li Name="灭魂" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong6"/>
+			<li Name="无限" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong7"/>
+			<li Name="圣光" Desc="巧夺天工的神兵，融合制作者的心血与灵感而成。" Mod="Mod/Prop/Weapon/weapon_gong8"/>
+		</List>
+	</ArtItem>
+</List></ArtItems>

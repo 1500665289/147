@@ -1,0 +1,12 @@
+<Experiences><List>
+	<Experience Name="Experiences35000">
+		<DisplayName>上古传承</DisplayName>
+		<Desc>消逝于时间长河的上古圣地的传承。\n\n\n[size=10]初始增加秘籍：[color=#D06508]神通录-上卷[/color]。\n初始增加秘籍：[color=#D06508]药祖经[/color]。[/size]</Desc>
+		<Point>0</Point>
+		<Esoterics>
+			<li>Magic_CSL</li>
+			<li>DanFang_SN</li>
+		</Esoterics>	
+	</Experience>
+	
+</List></Experiences>

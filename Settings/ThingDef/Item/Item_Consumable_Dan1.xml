@@ -1,0 +1,219 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_Dan_lingq" Parent="DanBase">
+		<ThingName>灵泉丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>修仙者必备丹药，食用后大幅度提升基础灵力。</Desc>	
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_lingq</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "100"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_linghai" Parent="DanBase">
+		<ThingName>灵海丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>修仙者必备丹药，食用后提升海量基础灵力。</Desc>	
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_linghai</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1000"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_huiling" Parent="DanBase">
+		<ThingName>回灵丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>修仙者必备丹药，食用后可回复大量灵力。如果服用者灵力上限低于三万，可能导致气海爆裂而死亡。</Desc>	
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_huiling</Modifier>
+				<Ling>30000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>300</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "10"/>
+					<Item name = "Item_LingStone" count = "5"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_huiyuan" Parent="DanBase">
+		<ThingName>回元丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>修仙者必备丹药，食用后可回复精元。</Desc>	
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+			<PracticeNutrition>1000</PracticeNutrition>
+		    </Food>	
+			<Elixir>
+				<Modifier>Dan_huiyuan</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_Happiness1" Parent="DanBase">
+		<ThingName>永乐丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao06</TexPath>
+		<Desc>可以永远感到快乐的丹药，但是吃了之后会做事效率会降低五成。</Desc>	
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_Happiness1</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>300</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "100"/>
+					<Item name = "Item_Mint" count = "100"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_zld" Parent="DanBase">
+		<ThingName>治疗丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>可以化解标有“金”“木”“水”“火”“土”“灵”类型的内门伤势，疗效较快。</Desc>		
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<RecoveryLable>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+					<li>Ling</li>
+				</RecoveryLable>
+				<RecoveryValue>2</RecoveryValue>
+				<RecoveryDuration>2</RecoveryDuration>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_SoulCrystalLing" count = "9"/>
+					<Item name = "Item_SoulCrystalYou" count = "9"/>
+					<Item name = "Item_SoulCrystalNing" count = "9"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>       
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_tianming" Parent="DanBase">
+		<ThingName>天命丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>以大量灵力沟通天道，食用可获得天道青睐。</Desc>	
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_tianming</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1000"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+		</Element>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

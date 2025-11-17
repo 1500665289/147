@@ -1,0 +1,40 @@
+<ThingDefs><List> 
+    <ThingDef Type="Item" Name="Item_Bracelet1" Parent="ToolBase">
+	
+	<ThingName>悟道手环</ThingName>
+	<MaxStack>1</MaxStack>
+	<TexPath>res\Sprs\object\object_jinzhuozi01</TexPath>
+	<Desc>佩戴时可宁心静气，保持好心情，提高修炼速度。</Desc>
+	<Flammability>
+		<Flammability>0.5</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<Item Kind="Equipment">
+		<FabaoSuffix>镯,琢</FabaoSuffix>
+		<PhysicalLables>
+			<li>SmallThing</li>
+		</PhysicalLables>
+		
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+		
+			<StuffCategories>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "Rock"/>
+				<Stuff name = "Metal"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 
+		
+		<Equip>
+			<ToolModifier>SysTool_Funwudao</ToolModifier>
+		</Equip>
+	</Item>
+	</ThingDef>
+</List></ThingDefs>

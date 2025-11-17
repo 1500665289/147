@@ -1,0 +1,105 @@
+<Spells><List>	
+    <Spell Name="Spell_fanren">
+		<DisplayName>红尘符</DisplayName>
+		<Desc>传说中的上古符箓，持有者皆为最佳员工。</Desc>
+		<Template>Spell/main_texture_bihan01</Template>
+		<Effects>
+			<li Name="GlobalEfficiency" AddP="5"/>
+            <li Name="MoveSpeed" AddP="5"/>
+            <li Name="CookingSpeed" AddP="5"/>
+            <li Name="StoneWorkSpeed" AddP="5"/>
+            <li Name="ConstructionSpeed" AddP="5"/>
+            <li Name="PlantWorkSpeed" AddP="5"/>
+            <li Name="SmithingSpeed" AddP="5"/>
+            <li Name="HandworkSpeed" AddP="5"/>
+            <li Name="TailoringSpeed" AddP="5"/>
+            <li Name="CuttingSpeed" AddP="5"/>
+            <li Name="DisasterFightingSpeed" AddP="5"/>
+            <li Name="CleanSpeed" AddP="5"/>
+            <li Name="DrugProductSpeed" AddP="5"/>
+            <li Name="TreatmentExpectQuality" AddP="10"/>
+            <li Name="ButcherSpeed" AddP="5"/>
+            <li Name="ButcherYieldEfficiency" AddP="1"/>
+            <li Name="PlantHarvestSpeed" AddP="5"/>
+            <li Name="PlantHarvestYieldEfficiency" AddP="1"/>
+            <li Name="MiningSpeed" AddP="5"/>
+            <li Name="MiningYieldEfficiency" AddP="5"/>
+            <li Name="MadeQualityAddValue" AddV="100"/>
+		</Effects>
+	</Spell>
+	
+	<Spell Name="Spell_xianren">
+		<DisplayName>仙尊符</DisplayName>
+		<Desc>传说中的上古符箓，持有者皆有仙尊之资。</Desc>
+		<Template>Spell/main_texture_bishu01</Template>
+		<Effects>
+		    <li Name="DanMake_SpeedAddV" AddP="20"/>
+			<li Name="DanMake_YieldAddP" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="10"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="20"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="20"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="10"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="10"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>
+			<li Name="RecoveryPower" AddP="10"/>
+			<li Name="PainTolerance" AddP="10"/>
+            <li Name="ComfyTMax" AddV="30"/>
+			<li Name="ToleranceTMax" AddV="30"/>
+			<li Name="ComfyTMin" AddV="-24"/>
+			<li Name="ToleranceTMin" AddV="-24"/>
+			<li Name="NpcFight_BaseHitChance" AddV="30"/>
+			<li Name="NpcFight_BaseDodgeChance" AddV="30"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="28"/>
+            <li Name="NpcFight_FabaoLingRecoverK" AddV="10"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="28"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="10"/>
+		</Effects>
+	</Spell>
+	
+	<Spell Name="Spell_tiancai">
+		<DisplayName>天才符</DisplayName>
+		<Desc>传说中的上古符箓，持有者皆为人族天骄。</Desc>
+		<Template>Spell/main_texture_bishu01</Template>
+		<Effects>
+			<li Name="IntelligenceSkillEXPConstant" AddP="10"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10"/>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="BaseEmotionAddV" AddV="200"/>
+			<li Name="PracticeRateAddPFromDan" AddP="5"/>
+			<li Name="InspirationCoefficient" AddP="10"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="5"/>
+			<li Name="GodCity_PracticeEffect" AddV="20"/>
+		</Effects>
+	</Spell>	
+	
+    <Spell Name="Spell_zhishi">
+		<DisplayName>执事符</DisplayName>
+		<Desc>传说中的上古符箓，持有者皆为最佳执事人选。</Desc>
+		<Template>Spell/main_texture_bishu01</Template>
+		<SkillEffects>
+			<li Name="Fight" LevelOver="20"/>
+		    <li Name="Qi" LevelOver="20"/>
+			<li Name="SocialContact" LevelOver="20"/>
+			<li Name="Medicine" LevelOver="20"/>
+		    <li Name="Cooking" LevelOver="20"/>		    
+			<li Name="Building" LevelOver="20"/>
+	    	<li Name="Farming" LevelOver="20"/>
+	    	<li Name="Mining" LevelOver="20"/>
+		    <li Name="Art" LevelOver="20"/>
+		  	<li Name="Manual" LevelOver="20"/>
+			<li Name="DouFa" LevelOver="20"/>
+	    	<li Name="DanQi" LevelOver="20"/>
+		    <li Name="Fabao" LevelOver="20"/>
+		    <li Name="FightSkill" LevelOver="20"/>
+		    <li Name="Barrier" LevelOver="20"/>
+		</SkillEffects>
+		<BaseFive>10,10,10,10,10</BaseFive>	
+	</Spell>	
+</List> </Spells>
